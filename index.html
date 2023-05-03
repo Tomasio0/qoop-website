@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qoop shop</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href=" https://cdn.jsdelivr.net/npm/font-awesome-animation@1.1.1/css/font-awesome-animation.min.css " rel="stylesheet">
+</head>
+<body>
+    
+<header class="header">
+
+<a class="logo" href=""><img class="logo-image" src="Design Assets/qoop blue png.PNG" alt=""></a>
+
+<nav class="navbar clickable-div">
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#categories">Categories</a>
+    <a href="#footer">Contact</a>
+</nav>
+
+<div class="big-form">
+    <form action="" class="search-form clickable-div">
+        <input class="box" type="search" placeholder="Search" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>   
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+</div>
+
+<div class="shopping-cart clickable-div">
+    <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="Design Assets/beige hoodie.PNG" alt="">
+        <div class="content">
+            <h3>Lewis Hoodie (sand)</h3>
+            <span class="price">$19.99</span>
+            <span class="quantity">qty : 1</span>
+        </div>
+    </div>
+    <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="Design Assets/jeans.jpg" alt="">
+        <div class="content">
+            <h3>90s Baggy High Jeans</h3>
+            <span class="price">$24.99</span>
+            <span class="quantity">qty : 1</span>
+        </div>
+    </div>
+    <div class="total"> total : $44.98
+    <a href="" class="btn">checkout</a>
+    </div>
+</div>
+
+<form action="" class="login-form clickable-div">
+    <h3>Login Now</h3>
+    <input type="email" placeholder="Your email" class="box">
+    <input type="password" placeholder="Your password" class="box">
+    <p>Forgot your password? <a href="">Click here</a></p>
+    <p>Don't have an account? <a href="">Sign up</a></p>
+    <input type="submit" value="login now" class="btn">
+</form>
+</header>
+
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Look good, feel qoop</h3>
+        <p>WINTER SEASON NEW ARRIVALS</p>
+        <a href="" class="button">shop now</a>
+    </div>
+</section>
+
+<!--
+<section class="features" id="features">
+    <h1 class="heading">our features</h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="snapshopt 4.jpg" class="img-fluid" alt="">
+            <h3>fresh and organic</h3>
+            <p></p>
+            <a href="" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="snapshot 3.jpg" class="img-fluid" alt="">
+            <h3>free delivery</h3>
+            <p></p>
+            <a href="" class="btn">read more</a>
+        </div>
+    </div>
+</section>
+-->
+
+<section class="products" id="products">
+    <h2 class="text-primary font-secondary">Featured Products</h2>
+    <h1 class="display-4">Trending this week</h1>
+    <div class="product-slider swiper">
+        <div class="wrapper swiper-wrapper">
+            <div class="box swiper-slide">
+                <div class="product-image">
+                <a href=""><img src="Design Assets\sweater image.PNG" alt=""></a>
+                </div>
+                <h3>Fine Knit Sweater</h3>
+                <div class="price">$22.99</div>
+                <a href="" class="button">add to cart</a>
+                <a href="" class="button">View Details</a>
+            </div>
+            <div class="box swiper-slide">
+                <div class="product-image">
+                    <a href=""><img src="Design Assets\buzos image.PNG" alt=""></a>
+                    </div>
+                <h3>Oversized Fit Cotton Hoodie</h3>
+                <div class="price">$39.99</div>
+                <a href="" class="button">add to cart</a>
+                <a href="" class="button">View Details</a>
+            </div>
+            <div class="box swiper-slide">
+                <div class="product-image">
+                <a href=""><img src="Design Assets\jean image.PNG" alt=""></a>
+                </div>
+                <h3>Straight Regular Jeans</h3>
+                <div class="price"><span class="new-price">$20.99</span><span class="old-price">$34.99</span></div>
+                <a href="" class="button">add to cart</a>
+                <a href="" class="button">View Details</a>
+            </div>
+            <div class="box swiper-slide">
+                <div class="product-image">
+                    <a href=""><img src="Design Assets\negros image.PNG" alt=""></a>
+                    </div>
+                <h3>Slim Fit Jersey Shirt</h3>
+                <div class="price">$12.99</div>
+                <a href="" class="button">add to cart</a>
+                <a href="" class="button">View Details</a>
+            </div>
+            <div class="box swiper-slide">
+                <div class="product-image">
+                    <a href=""><img src="Design Assets\hero image.PNG" alt=""></a>
+                    </div>
+                <h3>Regular Fit Crew-neck T-shirt</h3>
+                <div class="price">$10.99</div>
+                <a href="" class="button">add to cart</a>
+                <a href="" class="button">View Details</a>
+            </div>
+            <div class="box swiper-slide">
+                <div class="product-image">
+                    <a href=""><img src="Design Assets\campera image.PNG" alt=""></a>
+                    </div>
+                <h3>Nylon Windbreaker</h3>
+                <div class="price">$34.99</div>
+                <a href="" class="button">add to cart</a>
+                <a href="" class="button">View Details</a>
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <div class="all-products-div">
+        <a class="all-products-button" href="">View All Products</a>
+    </div>
+</section>
+
+<!--<section class="categories">
+<h1 class="heading">Product Categories</h1>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <a href="">
+                <img src="photo 5 (2).jpg" class="img-fluid categories-image" alt="">
+                <h3 class="categories-title">T-Shirts</h3>
+                <p class="categories-subtitle">Up to 45%off</p>
+            </a>
+        </div>
+        <div class="col">
+            <a href="">
+            <img src="photo 5 (2).jpg" class="img-fluid" alt="">
+            <h3>T-Shirts</h3>
+            <p>Up to 45%off</p>
+            </a>
+        </div>
+        <div class="col">
+            <a href="">
+            <img src="photo 5 (2).jpg" class="img-fluid" alt="">
+            <h3>T-Shirts</h3>
+            <p>Up to 45%off</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <a href="">
+                <img src="photo 7 (2).png" class="img-fluid" alt="">
+                <h3>T-Shirts</h3>
+                <p>Up to 45%off</p>
+            </a>
+        </div>
+        <div class="col">
+            <a href="">
+            <img src="photo 5 (2).jpg" class="img-fluid" alt="">
+            <h3>T-Shirts</h3>
+            <p>Up to 45%off</p>
+            </a>
+        </div>
+        <div class="col">
+            <a href="">
+            <img src="photo 5 (2).jpg" class="img-fluid" alt="">
+            <h3>T-Shirts</h3>
+            <p>Up to 45%off</p>
+            </a>
+        </div>
+    </div>
+
+</div>
+</section>-->
+
+<!-- Team Start -->
+<section class="categories" id="categories">
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
+            <h2 class="text-primary font-secondary">CATEGORIES</h2>
+            <h1 class="display-4">Find your favorite items</h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <div class="categories-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100 tshirts" src="Design Assets\t-shirts category.PNG" alt="">
+                        <div class="categories-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="categories-link" href="#"><h3 class="categories-title">T-SHIRTS<br><span>New drop limited edition</span></h3></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="categories-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="Design Assets\jeans category.PNG" alt="">
+                        <div class="categories-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="categories-link" href="#"><h3 class="categories-title">JEANS<br><span>40%off last week</span></h3></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="categories-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="Design Assets\hoodie category.PNG" alt="">
+                        <div class="categories-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="categories-link" href="#"><h3 class="categories-title">HOODIES<br><span>winter season collection</span></h3></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="categories-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="Design Assets\windbreaker category.PNG" alt="">
+                        <div class="categories-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="categories-link" href="#"><h3 class="categories-title">WINDBREAKER<br><span>WINTER SEASON COLLECTION</span></h3></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="categories-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="Design Assets\jacket category.PNG" alt="">
+                        <div class="categories-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="categories-link" href="#"><h3 class="categories-title">JACKETS<br><span>40%off last week</span></h3></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="categories-item">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="Design Assets\sweater category.PNG" alt="">
+                        <div class="categories-overlay w-100 h-100 position-absolute top-50 start-50 translate-middle d-flex align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="categories-link" href="#"><h3 class="categories-title">SWEATERS<br><span>winter season collection</span></h3></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- Team End -->
+
+<!-- Process Start -->
+<section class="features">
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row display-flex gy-5 gx-4 justify-content-center">
+            <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="position-relative pt-5 pb-4 px-4 container-div">
+                    <div class="d-inline-flex align-items-center justify-content-center rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 80px; height: 80px; background-color: var(--black);">
+                        <i class="fa fa-globe fa-3x text-white"></i>
+                    </div>
+                    <h3 class="mt-5">Worldwide Fast <span>Delivery</span></h3>
+                    <hr class="w-25 mx-auto">
+                    <hr class="w-50 mx-auto">
+                    <p class="mb-0">Shop now, receive worldwide. Fast delivery guaranteed!</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="position-relative pt-5 pb-4 px-4 container-div">
+                    <div class="d-inline-flex align-items-center justify-content-center rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 80px; height: 80px; background-color: var(--black);">
+                        <i class="fa fa-dollar-sign fa-3x text-white"></i>
+                    </div>
+                    <h3 class="mt-5"><span>Safe</span> Pay Online</h3>
+                    <hr class="w-25 mx-auto">
+                    <hr class="w-50 mx-auto">
+                    <p class="mb-0">The privacy of you financial data is ensured with our payment gateway, worry-free online shopping experience.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="position-relative container-div pt-5 pb-4 px-4">
+                    <div class="d-inline-flex align-items-center justify-content-center rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 80px; height: 80px; background-color: var(--black);">
+                        <i class="fa fa-tshirt fa-3x text-white"></i>
+                    </div>
+                    <h3 class="mt-5">Verified <span>Quality</span> materials</h3>
+                    <hr class="w-25 mx-auto">
+                    <hr class="w-50 mx-auto">
+                    <p class="mb-0">Our clothes are made of high-quality materials selected for superior comfort and durability.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- Process end -->
+
+
+<section class="footer" id="footer">
+    <!-- Footer Start -->
+    <div class="container-fluid text-light footer pt-5 mt-5 wow fadeIn" style="background-color: var(--dark-color)" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Important Info</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2 contact-btn">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <!--<div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p></p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>-->
+                <div class="col-lg-4 col-md-6 footer-column-2">
+                    <h4>Subscribe to our newsletter</h4>
+                    <p>Receive the latest news, deals and offers. <br> Cancel anytime.</p>
+                        <input class="input-text" type="text" placeholder="Enter your first name" required>
+                        <input class="input-text" type="email" placeholder="Enter your email" required>
+                        <input type="checkbox" id="fruit1" name="fruit-1" value="Apple" checked required>
+                        <label class="checkbox-label" for="fruit1">Send me the latest news and offers.</label>
+                        <button> <i class="fa-solid fa-envelope"></i>Subscribe</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">qoop</a>, All Right Reserved.
+                        Designed By <a class= href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<!----jquery-->
+<script src="jquery-3.6.4.js"></script>
+<!--- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
