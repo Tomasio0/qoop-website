@@ -218,6 +218,7 @@ html{
     transition: .1s;
 }
 
+
 .header .shopping-cart .box .content h3{
     color: var(--black);
     font-size: 1.7rem;
@@ -247,19 +248,21 @@ html{
     margin-top: 2rem;
     display: block;
     padding: .8rem 3rem;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     border-radius: .5rem;
     width: 100%;
     color: var(--black);
+    transition: 0.3s;
+    border: 1px var(--black) solid;
+}
+
+.header .shopping-cart .total .btn:hover {
+    background-color: var(--orange);
+    color: white;
+    border: 1px var(--orange) solid;
+    transition: .3s;
     cursor: pointer;
 }
-
-.header .shopping-cart .total .btn:hover{
-    color: rgb(255, 255, 255);
-    background: var(--orange);
-    border: .3rem solid var(orange);
-}
-
 
 .header .login-form{
     position: absolute;
@@ -309,19 +312,21 @@ html{
 .header .login-form .btn{
     margin: 0 auto;
     margin-top: 2rem;
-    display: block;
     padding: .8rem 3rem;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
+    border: 1px solid var(--black);
     border-radius: .5rem;
     width: 100%;
     color: var(--black);
-    cursor: pointer;
+    transition: .3s;
 }
 
-.header .login-form .btn:hover{
-    color: rgb(255, 255, 255);
-    background: var(--orange);
-    border: .3rem solid var(orange);
+.header .login-form .btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+  transition: .3s
 }
 
 @media (max-width: 450px){
@@ -400,7 +405,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("Design Assets/new hero (2).jpg");
+    background: url("Design Assets/new hero (2) jpg.jpg");
     background-blend-mode:multiply;
     background-color: rgb(211, 211, 211);
     background-position: cover;
@@ -445,14 +450,17 @@ html{
     border-radius: 5px;
     position: absolute;
     top: 80%;
+    transition: .3s
 }
 
-.home .content .button:hover{
-    text-decoration:none;
-    color: #fff;
+.home .content .button:hover {
+    color: white;
     background-color: var(--orange);
-    border-radius: 5px;
-}
+    cursor: pointer;
+    transition: .3s;
+} 
+
+
 
 @media (max-width: 728px){
     .home .content h3{
@@ -525,7 +533,7 @@ html{
     height: 80vh;
     width: 100%;
     object-fit: cover;
-    
+
 }
 
 .product-image{
@@ -569,6 +577,7 @@ html{
     color: var(--black);
     cursor: pointer;
     text-decoration: none;
+    transition: .3s;
 }
 
 .products .button:hover{
@@ -576,6 +585,7 @@ html{
     color: #fff;
     background-color: var(--orange);
     border: 1px solid var(--orange);
+    transition: .3s;
 }
 
 .all-products-div{
@@ -698,10 +708,24 @@ html{
 
 .features .container-div{
     min-height: 250px;
+    max-height: 250px;
     display: flex;
     flex-direction: column;
 }
 
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .features .container-div{
+        max-height: 320px;
+        min-height: 320px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .features .container-div{
+        max-height: 280px;
+        min-height: 280px;
+    }
+}
 
 
 /*** Footer ***/
@@ -902,5 +926,3 @@ input[type=checkbox] + label {
     transition: 0.3s;
     cursor: pointer;
 }
-
-
