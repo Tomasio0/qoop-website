@@ -405,7 +405,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("Design Assets/new hero (2) jpg.jpg");
+    background: url("Design Assets/new hero (2) jpg.JPG");
     background-blend-mode:multiply;
     background-color: rgb(211, 211, 211);
     background-position: cover;
