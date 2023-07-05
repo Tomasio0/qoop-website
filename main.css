@@ -425,24 +425,25 @@ html{
 
 .home .content h3{
     color: rgb(255, 255, 255);
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     background-color: rgb(0, 0, 0);
-    padding: 1rem;
+    padding: 2rem;
     text-transform: lowercase;
 }
 
 .home .content p{
-    color: rgb(188, 188, 188);
-    font-size: 2rem;
+    color: rgb(63, 63, 63);
+    font-size: 1.8rem;
     line-height: 1.8;
-    background-color: rgb(0, 0, 0);
+    background-color: white;
     padding: 0 1rem;
+    text-transform: lowercase;
 }
 
 .home .content .button{
     margin: 0 auto;
-    padding: .5rem 2rem;
-    font-size: 2.2rem;
+    padding: .5rem 1.8rem;
+    font-size: 1.8rem;
     color: rgb(0, 0, 0);
     background-color:white;
     cursor: pointer;
@@ -505,7 +506,7 @@ html{
 */
 
 .products{
-    margin-top: 6rem;
+    margin-top: 7rem;
 }
 
 .products h2, h1{
